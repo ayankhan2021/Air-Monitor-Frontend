@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/api';
+const API_URL = 'https://air-monitor-backend.vercel.app/api';
 
 export const fetchAirData = () => {
   return axios.get(`${API_URL}/get-air-data`);
